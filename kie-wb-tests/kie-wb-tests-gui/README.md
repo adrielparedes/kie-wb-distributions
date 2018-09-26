@@ -10,5 +10,5 @@ Selenium usually supports the latest two ESR versions (54 and 60 at the time I'm
 
 ```bash
 cd kie-wb-distributions/kie-wb-tests/kie-wb-tests-gui/
-mvn clean verify -Pkie-wb,wildfly14 -Dwebdriver.firefox.bin=/path/to/firefox/firefox-bin
+mvn clean verify -Pkie-wb,wildfly11 -Dwebdriver.firefox.bin=/path/to/firefox/firefox-bin
 ```
